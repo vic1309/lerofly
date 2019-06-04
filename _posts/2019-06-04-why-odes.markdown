@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Why should we study Ordinary Differential Equations?"
+date:   2019-06-04 18:52:00
+author: Victor de Aguiar
+categories: ODE
+tags:	ode insights
+cover:  "/assets/instacode.png"
+---
+**Hello, world! Welcome!**
+
+
+I have been thinking a lot how to properly start this series of lectures and I have decided to start from the beginning. During my undergraduate studies, specially when I was freshman and sophomore, I used to ask myself:
+
+> *- Why do we have to study Calculus?*
+
+## What are ODEs and for what are they useful?
+
+
+Moreover, ODEs are the background of more complex differential equations, such as Partial Differential Equations (PDE), Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE). 
+
+----
+### Examples of ODEs
+
+If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
+
+____
+## Content
+
+I expect to cover the main apects of the following topics:
+
+  1. First-Order Ordinary Differential Equation
+
+  2. Second-Order Ordinary Differential Equation
+  
+  3. Systems of First Order Differential Equations
+
+  4. Nonlinear Ordinary Diferential Equations and Stability (*)
+  
+ 
+*(\*)* *- I don't know if I'll be able to cover this topic, both for lack of time and broadness but, well, let's see..* 
+
+----------
+## Reading List
+
+I will provide specific reading list for each topic considered. However, for the early-birds, I suggest this:
+
+- [1] *[Elementary Differential Equations and Boundary Value Problems](https://www.kea.nu/files/textbooks/math135.pdf)* - **William E. Boyce and Richard C. DiPrima**     
+    
+- [2] *[Programming for Computations](http://hplgit.github.io/prog4comp/doc/pub/p4c-sphinx-Python/index.html#programming-for-computations-python-version)* - **Svein Linge & Hans Petter Langtangen**. Book available [here](https://link.springer.com/book/10.1007/978-3-319-32428-9).
+
+- [3] *[Numerical Methods for Engineers: A digital compendium](http://lrhgit.github.io/tkt4140/allfiles/digital_compendium/._main002.html)* - **Johan Kolstø Sønstabø & Leif Rune Hellevik**
+
+- [4] *[Numerical Methods for Engineers](http://folk.ntnu.no/leifh/teaching/tkt4140/)* ([Course page here](https://www.ntnu.no/wiki/display/kt/TKT4140+Numerical+Methods)) - **Leif Rune Hellevik**
+
+- [5] *[Numerical Methods Using Python](http://people.bu.edu/andasari/courses/numericalpython/python.html)* - **Vivi Andasari**
+
+- [6] *[Finite Difference Computing with PDEs - A Modern Software Approach](https://hplgit.github.io/fdm-book/doc/pub/book/pdf/fdm-book-4screen.pdf)* - **Svein Linge & Hans Petter Langtangen**
+
+
+Cre
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+[highlight]:   https://highlightjs.org/
+[lightbox]:    http://lokeshdhakar.com/projects/lightbox2/
+[jekyll-archive]: https://github.com/jekyll/jekyll-archives
+[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
