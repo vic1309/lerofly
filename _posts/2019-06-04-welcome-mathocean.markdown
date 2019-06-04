@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to MathOcean!"
 date:   2019-06-04 12:05:00
 author: Victor de Aguiar
-categories: JMisc
+categories: misc
 tags:	mathocean welcome
 cover:  "/assets/instacode.png"
 ---
