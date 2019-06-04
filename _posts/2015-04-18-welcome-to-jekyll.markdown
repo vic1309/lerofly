@@ -40,7 +40,7 @@ demo("hello, world!", 10);
 {% endhighlight %}{% endraw %}
 {% endhighlight %}
 
-{% highlight python}
+{% highlight python %}
 import numpy as np
 
 
