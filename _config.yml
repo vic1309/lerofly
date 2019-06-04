@@ -53,7 +53,9 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
-
+  
+  - cat: misc
+    desc: "Miscellaneous stuff"
 # Social icons and sharing options
 #
 # Social settings are used in two places:
@@ -91,12 +93,12 @@ social:
     desc: Fork me on GitHub
     share: true
 
-  - name: LinkedIn
-    icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
-    desc: Connect with me on LinkedIn
-    share: false
+  #- name: LinkedIn
+  #  icon: linkedin
+  #  username: Ben Centra
+  #  url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+  #  desc: Connect with me on LinkedIn
+  #  share: false
 
   - name: Google+
     icon: google-plus
