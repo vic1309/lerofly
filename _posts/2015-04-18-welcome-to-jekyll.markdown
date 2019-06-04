@@ -40,6 +40,12 @@ demo("hello, world!", 10);
 {% endhighlight %}{% endraw %}
 {% endhighlight %}
 
+{% highlight python}
+import numpy as np
+
+
+{% endhighlight %}
+
 ...will come out looking like this:
 
 {% highlight javascript %}
