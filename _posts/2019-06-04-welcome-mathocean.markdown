@@ -27,7 +27,7 @@ The main idea is to present basic concepts of each topic in a simple way, with e
 
 First of all, I *really* would like to thank Ben Centra for this wonderful project developed by him. You can learn more about Centrarium [here](https://github.com/bencentra/centrarium).
 
-No less important, I would like to thank Prof. Hans Petter Langtangen. His legacy and passion for Science has undoubtedly motivated me to create this blog. You can find some of his books [here](http://hplgit.github.io/). Moreover, I'm thankful to Prof. Svein Linge and Prof. Leif Rune Hellevik for their huge effort on producing high quality and available material to students.
+No less important, I would like to thank Prof. Hans Petter Langtangen. His legacy and passion for Science has undoubtedly motivated me to create this blog. You can find some of his [books](http://hplgit.github.io/) and projects that he worked activelly ([DocOnce](https://github.com/hplgit/doconce) and [FEniCS Project](https://fenicsproject.org/tutorial/)) on his GitHub [page](https://github.com/hplgit). Moreover, I'm thankful to Prof. Svein Linge and Prof. Leif Rune Hellevik for their huge effort on producing available high quality material to students.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
