@@ -56,6 +56,9 @@ descriptions:
   
   - cat: misc
     desc: "Miscellaneous stuff"
+    
+  - cat: ode
+    desc: "Ordinary Differential Equations"
 # Social icons and sharing options
 #
 # Social settings are used in two places:
