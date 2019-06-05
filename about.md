@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-text-align: center
+text-align: justify
 permalink: /about/
 ---
 
