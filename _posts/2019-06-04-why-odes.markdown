@@ -58,7 +58,7 @@ I will provide specific reading list for each topic considered. However, for the
 - [6] *[Finite Difference Computing with PDEs - A Modern Software Approach](https://hplgit.github.io/fdm-book/doc/pub/book/pdf/fdm-book-4screen.pdf)* - **Svein Linge & Hans Petter Langtangen**
 
 
-Cre
+Cover image by [Earth Observatory - Nasa](https://earthobservatory.nasa.gov/images/41161/katabatic-winds-rake-antarcticas-terra-nova-bay)
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
