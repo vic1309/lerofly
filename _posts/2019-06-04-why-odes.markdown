@@ -5,7 +5,7 @@ date:   2019-06-04 18:52:00
 author: Victor de Aguiar
 categories: ODE
 tags:	ode insights
-cover:  "/assets/instacode.png"
+cover:  "/assets/capa_ode.jpg"
 ---
 **Hello, world! Welcome!**
 
