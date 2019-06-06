@@ -12,16 +12,9 @@ cover:  "/assets/capa_ode.jpg"
 
 We have finally reached the last topic on our journey! Before going into and attack it, we must see a few things. First of all:
 
-In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
-for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
-divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
-The kerel summation radius $r$ is equal to the N-simplex height $h$.
-
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
-
 > **- Why do we care about systems of linear ODEs?**
 
-When we consider a linear system of something it means that things are **coupled**. In other words, if you have two equations with two unknown functions (say )
+When we consider a linear system of something it means that things are **coupled**. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$)
 
 
 ## What are ODEs and for what are they useful?
