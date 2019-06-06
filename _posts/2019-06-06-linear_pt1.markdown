@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why should we study Ordinary Differential Equations?"
+title:  "Systems of Linear Ordinary Differential Equations: Part 1"
 date:   2019-06-04 18:52:00
 author: Victor de Aguiar
 categories: ODE
@@ -9,9 +9,12 @@ cover:  "/assets/capa_ode.jpg"
 ---
 **Hello, world! Welcome!**
 
-We have **finally** reached the last topic on our journey! 
+We have finally reached the last topic on our journey! Before going into and attack it, we must see a few things. First of all:
 
-> *- Why do we have to study Calculus?*
+> **- Why do we care about systems of linear ODEs?**
+
+When we consider a linear system of something it means that things are **coupled**. In other words, if you have two equations with two unknown functions (say )
+
 
 ## What are ODEs and for what are they useful?
 
