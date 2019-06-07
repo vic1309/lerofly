@@ -34,6 +34,9 @@ For this first chapter I recommend the following reading/watching list:
 
 - [Handbook of Linear Algebra](http://www2.fiit.stuba.sk/~kvasnicka/QuantumComputing/Hogben-Handbook%20of%20Linear%20Algebra-%28CRC%20press,%202007%29.pdf) - **Leslie Hogben**
 
+----
+----
+
 ## Linear Transformation
 
 
