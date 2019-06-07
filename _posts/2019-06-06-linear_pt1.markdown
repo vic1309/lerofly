@@ -24,6 +24,16 @@ For this first chapter I recommend the following reading/watching list:
 
 - [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - **3BLue1Brown**
 
+- [Introduction to Applied Linear Algebra - Vectors, Matrices, and Least Squares](http://vmls-book.stanford.edu/vmls.pdf) - **Stephen Boyd**
+
+- [Linear ALgebra](https://www.math.ucdavis.edu/~linear/linear-guest.pdf) - **David Cherney, Tom Denton, Rohit Thomas and Andrew Waldron**
+
+- [Linear Algebra and its applications](http://www.math.hcmus.edu.vn/~bxthang/Linear%20algebra%20and%20its%20applications.pdf) - **Gilbert Strang**
+
+- [Introduction to Linear Algebra](http://www.math.nagoya-u.ac.jp/~richard/teaching/f2014/Lin_alg_Lang.pdf) - **Serge Lang**
+
+- [Handbook of Linear Algebra](http://www2.fiit.stuba.sk/~kvasnicka/QuantumComputing/Hogben-Handbook%20of%20Linear%20Algebra-%28CRC%20press,%202007%29.pdf) - **Leslie Hogben**
+
 ## Linear Transformation
 
 
