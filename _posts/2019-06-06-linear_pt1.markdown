@@ -17,7 +17,7 @@ We have finally reached the last topic on our journey! Before going into and att
 When we consider a linear system of something it means that things are **coupled, linked**. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$) the knowledge of $x_2$ is required to find $x_1$ and the contrary is also true. However, differently from secondary school where we learned how to solve a system of *algebraic* equations, now we are going to see how to solve a system composed by *differential* equations. Let's take a look on some examples?
 
 
-    Suppose that you have a system which contains three springs with constants $k_1$, $k_2$ and $k_3$ connected by two blocks with mass $m_2$ and $m_3$ moving on a frictionless surface. Consider that these same blocks are under the influence of external forces $F_1(t)$ and $F_2(t)$. 
+> Suppose that you have a system which contains three springs with constants $k_1$, $k_2$ and $k_3$ connected by two blocks with mass $m_2$ and $m_3$ moving on a frictionless surface. Consider that these same blocks are under the influence of external forces $F_1(t)$ and $F_2(t)$ and that their displacement is denoted by $x_1$ and $x_2$, respectively (Figure 1).  
 
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
