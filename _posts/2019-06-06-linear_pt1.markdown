@@ -25,7 +25,7 @@ When we consider a linear system of something it means that things are **coupled
 
 > $$\begin{equation} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \tag{2} \label{eq:two} \end{equation}$$
 
-> See \ref{2}
+> See \ref{eq:two}
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
 
