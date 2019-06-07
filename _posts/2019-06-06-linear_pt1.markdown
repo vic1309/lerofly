@@ -21,9 +21,11 @@ When we consider a linear system of something it means that things are **coupled
 
 > *Taking into account those considerations and apllying Newton's Second Law we find that:*
 
-> $$\begin{equation}\tag{1} m_1 \frac{d^2 x_1}{dt^2} + b_1 \frac{d x_1}{dt} + k_1(x_1 - L_1) - k_2(x_2 - x_1 - L_2) = 0 \label{eq:one} \end{equation}$$
+> $$\begin{equation} m_1 \frac{d^2 x_1}{dt^2} + b_1 \frac{d x_1}{dt} + k_1(x_1 - L_1) - k_2(x_2 - x_1 - L_2) = 0 \tag{1} \label{eq:one} \end{equation}$$
 
-> $$\begin{equation}\tag{2} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \label{eq:two} \end{equation}$$
+> $$\begin{equation} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \tag{2} \label{eq:two} \end{equation}$$
+
+> See \ref{2}
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
 
