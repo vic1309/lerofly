@@ -27,6 +27,12 @@ We have finally reached the last topic on our journey! Before going deeper and a
 
 > $$\begin{equation} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \tag{2} \label{eq:two} \end{equation}$$
 
+In order to solve them, we can transform these two second order equations in a system of four first order equations. Defining parameter values:
+
+* Block masses -- $m_1 = 1.0$; $m_2 = 1.5$ 
+* Spring constants -- $k_1 = 8.0$; $k_2 = 40.0$ 
+* Lengths -- $L_1 = 0.5$; $L_2 = 1.0$ 
+* Friction coefficients -- $b_1 = 0.8$; $b_2 = 0.5$
 
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
