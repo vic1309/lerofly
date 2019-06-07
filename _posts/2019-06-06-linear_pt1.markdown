@@ -17,13 +17,13 @@ We have finally reached the last topic on our journey! Before going into and att
 When we consider a linear system of something it means that things are **coupled, linked**. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$) the knowledge of $x_2$ is required to find $x_1$ and the contrary is also true. However, differently from secondary school where we learned how to solve a system of *algebraic* equations, now we are going to see how to solve a system composed by *differential* equations. Let's take a look on some examples?
 
 
-> *__Ex. 1:__* *Suppose that you have a system which contains three springs with constants $k_1$, $k_2$ and $k_3$ connected by two blocks with mass $m_2$ and $m_3$ moving on a frictionless surface. Consider that these same blocks are under the influence of external forces $F_1(t)$ and $F_2(t)$ and that their displacement are denoted by $x_1$ and $x_2$, respectively (Figure 1).*
+> *__Ex. 1:__* *Suppose that you have a system which contains two springs with constants $k_1$ and $k_2$ connected by two blocks with masses $m_1$ and $m_2$ moving on a surface that creates friction ($b_1$ and $b_2$). Consider that the tip of the first spring is fixed and when no external forces act on them their length are $L_1$ and $L_2$. Finally, consider that the position of the blocks are denoted by $x_1$ and $x_2$, respectively (Figure 1).*
 
-> Taking into account those considerations and apllying Newton's Second Law we find that:
+> *Taking into account those considerations and apllying Newton's Second Law we find that:*
 
-> $$ \begin{equation} m_1 \frac{d^2 x_1}{dt^2} = k_2(x_2 - x_1) - k_1 x_1 + F_1(t) \label{eq:one} \end{equation}$$
+> $$\begin{equation} m_1 \frac{d^2 x_1}{dt^2} + b_1 \frac{d x_1}{dt} + k_1(x_1 - L_1) - k_2(x_2 - x_1 - L_2) = 0 \label{eq:one} \end{equation}$$
 
-> $$ $$
+> $$\begin{equation} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \label{eq:two} \end{equation}$$
 
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
