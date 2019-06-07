@@ -4,6 +4,7 @@ title:  "Systems of Linear Ordinary Differential Equations: Part 1"
 date:   2019-06-06 18:52:00
 author: Victor de Aguiar
 categories: ODE
+text-align: justify
 tags:	ode linearsystem independence
 mathjax: true
 cover:  "/assets/capa_ode.jpg"
