@@ -21,7 +21,7 @@ When we consider a linear system of something it means that things are **coupled
 
 > Taking into account those considerations and apllying Newton's Second Law we find that:
 
-> $$ m_1 \frac{d^2 x_1}{dt^2} = k_2(x_2 - x_1) - k_1 x_1 + F_1(t)$$
+> $ m_1 \frac{d^2 x_1}{dt^2} = k_2(x_2 - x_1) - k_1 x_1 + F_1(t) $
 
 > $$ $$
 
