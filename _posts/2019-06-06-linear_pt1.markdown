@@ -29,7 +29,7 @@ We have finally reached the last topic on our journey! Before going deeper and a
 
 > Defining parameter values:
 
-* Block masses: $m_1 = 1.0$, $m_2 = 1.5$ 
+* Block masses: \hspace{3cm} $m_1 = 1.0$, $m_2 = 1.5$ 
 * Spring constants: $k_1 = 8.0$, $k_2 = 40.0$ 
 * Lengths: $L_1 = 0.5$, $L_2 = 1.0$ 
 * Friction coefficients: $b_1 = 0.8$, $b_2 = 0.5$
