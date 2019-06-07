@@ -12,54 +12,33 @@ cover:  "/assets/capa_ode.jpg"
 
 We have finally reached the last topic on our journey! Before going into and attack it, we must see a few things. First of all:
 
-> **- Why do we care about systems of linear ODEs?**
+> **- Why should we care about systems of linear ODEs?**
 
-When we consider a linear system of something it means that things are **coupled**. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$)
+When we consider a linear system of something it means that things are **coupled**. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$) the knowledge of $x_2$ is required to find $x_1$ and the contrary is also true. However, differently from secondary school where we learned how to solve a system of *algebraic* equations, now we are going to see how to solve a system composed by *differential* equations. Let's take a look on some examples?
 
+%#Examples here
 
-## What are ODEs and for what are they useful?
+As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
+
+For this first chapter I recommend the following reading/watching list:
+
+- [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - **3BLue1Brown**
+
+## Linear Transformation
 
 
 Moreover, ODEs are the background of more complex differential equations, such as Partial Differential Equations (PDE), Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE). 
 
 ----
-### Examples of ODEs
+### Linear Independence
 
 If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
 
-____
-## Content
+----
+## Eigenvalues and Eigenvectors
 
-I expect to cover the main apects of the following topics:
 
-  1. First-Order Ordinary Differential Equation
-
-  2. Second-Order Ordinary Differential Equation
-  
-  3. Systems of First Order Differential Equations
-
-  4. Nonlinear Ordinary Diferential Equations and Stability (*)
-  
- 
-*(\*)* *- I don't know if I'll be able to cover this topic, both for lack of time and broadness but, well, let's see..* 
-
-----------
-## Reading List
-
-I will provide specific reading list for each topic considered. However, for the early-birds, I suggest this:
-
-- [1] *[Elementary Differential Equations and Boundary Value Problems](https://www.kea.nu/files/textbooks/math135.pdf)* - **William E. Boyce and Richard C. DiPrima**     
-    
-- [2] *[Programming for Computations](http://hplgit.github.io/prog4comp/doc/pub/p4c-sphinx-Python/index.html#programming-for-computations-python-version)* - **Svein Linge & Hans Petter Langtangen**. Book available [here](https://link.springer.com/book/10.1007/978-3-319-32428-9).
-
-- [3] *[Numerical Methods for Engineers: A digital compendium](http://lrhgit.github.io/tkt4140/allfiles/digital_compendium/._main002.html)* - **Johan Kolstø Sønstabø & Leif Rune Hellevik**
-
-- [4] *[Numerical Methods for Engineers](http://folk.ntnu.no/leifh/teaching/tkt4140/)* ([Course page here](https://www.ntnu.no/wiki/display/kt/TKT4140+Numerical+Methods)) - **Leif Rune Hellevik**
-
-- [5] *[Numerical Methods Using Python](http://people.bu.edu/andasari/courses/numericalpython/python.html)* - **Vivi Andasari**
-
-- [6] *[Finite Difference Computing with PDEs - A Modern Software Approach](https://hplgit.github.io/fdm-book/doc/pub/book/pdf/fdm-book-4screen.pdf)* - **Svein Linge & Hans Petter Langtangen**
-
+----
 
 Cover image by [Earth Observatory - Nasa](https://earthobservatory.nasa.gov/images/41161/katabatic-winds-rake-antarcticas-terra-nova-bay)
 
