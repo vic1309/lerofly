@@ -29,15 +29,17 @@ We have finally reached the last topic on our journey! Before going deeper and a
 
 > Defining parameter values:
 
-* Block masses: &ensp;&ensp; $m_1 = 1.0$, &ensp; $m_2 = 1.5$ 
-* Spring constants: &ensp;&ensp; $k_1 = 8.0$, &ensp; $k_2 = 40.0$ 
-* Lengths: &ensp;&ensp; $L_1 = 0.5$, &ensp; $L_2 = 1.0$ 
-* Friction coefficients: &ensp;&ensp; $b_1 = 0.8$, &ensp; $b_2 = 0.5$
+* Block masses: &ensp; $m_1 = 1.0$, &ensp; $m_2 = 1.5$ 
+* Spring constants: &ensp; $k_1 = 8.0$, &ensp; $k_2 = 40.0$ 
+* Lengths: &ensp; $L_1 = 0.5$, &ensp; $L_2 = 1.0$ 
+* Friction coefficients: &ensp; $b_1 = 0.8$, &ensp; $b_2 = 0.5$
 
 > and initial conditions:
 
-* Initial position: &ensp;&ensp; $x_1 = 0.5$, &ensp; $x_2 = 2.25$
-* Initial velocity: &ensp;&ensp; $\frac{d x_1}{dt} = y_1 = 0$, &ensp; $\frac{d x_2}{dt} = y_2 = 0$ 
+* Initial position: &ensp; $x_1 = 0.5$, &ensp; $x_2 = 2.25$
+* Initial velocity: &ensp; $\frac{d x_1}{dt} = y_1 = 0$, &ensp; $\frac{d x_2}{dt} = y_2 = 0$ 
+
+Thus, we are able to transform two second order equations into a system of four first order equations.
 
 As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
 
@@ -58,7 +60,7 @@ For this first chapter I recommend the following reading/watching list:
 ----
 ----
 
-## Linear Transformation
+### Linear Transformation
 
 
 Moreover, ODEs are the background of more complex differential equations, such as Partial Differential Equations (PDE), Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE). 
