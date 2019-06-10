@@ -62,7 +62,7 @@ For this first chapter I recommend the following reading/watching list:
 
 ### Linear Independence
 
-Consider the vectors <b>$x_1$</b>, <b>$x_2$</b> and <b>$x_3$</b> scaled by three scalars, say *$\alpha_1$*, *$\alpha_2$* and *$\alpha_3$*, respectively.  
+Consider the vectors $\vec{x_1}$, $\vec{x_2}$ and $\vec{x_3}$ scaled by three scalars, say *$\alpha_1$*, *$\alpha_2$* and *$\alpha_3$*, respectively.  
 
 
 ### Linear Transformation
