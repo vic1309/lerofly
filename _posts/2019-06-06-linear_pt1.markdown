@@ -60,17 +60,18 @@ For this first chapter I recommend the following reading/watching list:
 ----
 ----
 
+### Linear Independence
+
+Consider the vectors **$x_1$**, **$x_2$** and **$x_3$** scaled by three scalars, say **$\alpha_1$**, **$\alpha_2$** and **$\alpha_3$**, respectively.  
+
+
 ### Linear Transformation
 
 
 Moreover, ODEs are the background of more complex differential equations, such as Partial Differential Equations (PDE), Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE). 
 
 ----
-### Linear Independence
 
-If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
-
-----
 ## Eigenvalues and Eigenvectors
 
 
