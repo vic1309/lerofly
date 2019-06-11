@@ -70,7 +70,7 @@ The first and trivial solution that arises for Eq. \ref{eq:three} is
 
 $$ \alpha_1 = \alpha_2 = \alpha_3 = 0 \tag{4} $$ 
 
-For this case, we say that the vectors {\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_3}, \dots, \mathbf{x_n}}
+For this case, we say that the vectors ${\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_3}, \ldots, \mathbf{x_n}}$
 
 
 ### Linear Transformation
