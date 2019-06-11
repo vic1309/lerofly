@@ -74,7 +74,7 @@ For this case, we say that the vectors {${\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_
 
 $$ x_1 = -\frac{\alpha_2}{\alpha_1}x_2 - \frac{\alpha_3}{\alpha_1}x_3 - \ldots - \frac{\alpha_n}{\alpha_1}x_n \tag{5} \label{eq:five}$$ 
 
-> *Alright, Victor. But what else? What does it mean?*
+    > *Alright, Victor. But what else? What does it mean?*
 
 
 ### Linear Transformation
