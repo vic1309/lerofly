@@ -62,9 +62,15 @@ For this first chapter I recommend the following reading/watching list:
 
 ### Linear Independence
 
-Consider the set of nonzero vectors $\mathbf{x_1}$, $\mathbf{x_2}$ and $\mathbf{x_3}$ scaled by three scalars, say *$\alpha_1$*, *$\alpha_2$* and *$\alpha_3$*, respectively. Suppose that we have the following linear combination  
+Consider the set of nonzero vectors $\mathbf{x_1}$, $\mathbf{x_2}$ and $\mathbf{x_3}$ scaled by three scalars, say *$\alpha_1$*, *$\alpha_2$* and *$\alpha_3$*, respectively. Suppose that we have the following linear combination:  
 
 $$ \alpha_1 \mathbf{x_1} + \alpha_2 \mathbf{x_2} + \alpha_3 \mathbf{x_3} = \mathbf{0} \tag{3} \label{eq:three}$$
+
+The first and trivial solution that arises for Eq. \ref{eq:three} is
+
+$$ \alpha_1 = \alpha_2 = \alpha_3 = 0 \tag{4} $$ 
+
+For this case, we say that the vectors {\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_3}, \dots, \mathbf{x_n}}
 
 
 ### Linear Transformation
