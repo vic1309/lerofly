@@ -74,13 +74,19 @@ For this case, we say that the vectors {${\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_
 
 $$ x_1 = -\frac{\alpha_2}{\alpha_1}x_2 - \frac{\alpha_3}{\alpha_1}x_3 - \ldots - \frac{\alpha_n}{\alpha_1}x_n \tag{5} \label{eq:five}$$ 
 
-    > *Alright, Victor. But what else? What does it mean?*
+> __*Alright, Victor, but what else? What does it mean?*__
+
+https://yutsumura.com/quiz-3-condition-that-vectors-are-linearly-dependent-orthogonal-vectors-are-linearly-independent/
+https://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/lindep/lindep.html
+https://www.statlect.com/matrix-algebra/linear-independence
+http://www.sosmath.com/diffeq/second/linearind/linearind.html
+http://tutorial.math.lamar.edu/Classes/DE/FundamentalSetsofSolutions.aspxhttps://math.stackexchange.com/questions/2359046/the-wronskian-and-the-term-fundamental-set-of-solutions
 
 
 ### Linear Transformation
 
 
-Moreover, ODEs are the background of more complex differential equations, such as Partial Differential Equations (PDE), Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE). 
+
 
 ----
 
