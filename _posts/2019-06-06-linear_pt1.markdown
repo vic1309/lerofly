@@ -70,9 +70,9 @@ The first and trivial solution that arises for Eq. \ref{eq:three} is
 
 $$ \alpha_1 = \alpha_2 = \alpha_3 = 0 \tag{4} $$ 
 
-For this case, we say that the vectors {${\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_3}, \ldots, \mathbf{x_n}}$} are **linearly independent**. On the other hand, if there is at least one scalar that is different of zero (*e.g* $\alpha_1$ $\neq$ 0), we say that the set is **linearly dependent**. In other words, if it's possible to arrange vectors in a way that one of them is expressed as the linear combination of the others (Eq. \ref{eq:five}), we say the such set of vectors are linearly dependent.
+For this case, we say that the vectors {${\mathbf{x_1}, \mathbf{x_2}, \mathbf{x_3}, \ldots, \mathbf{x_n}}$} are **linearly independent**. On the other hand, if there is at least one scalar that is different of zero (*e.g* $\alpha_1$ $\neq$ 0), we say that the set is **linearly dependent**. In other words, if one of them (say $\mathbf{x_1}$) is expressed as the linear combination of the others, we say that such set of vectors are linearly dependent (Eq. \ref{eq:five}).
 
-$$ x_1 = -\frac{\alpha_2}{\alpha_1}x_2 - \frac{\alpha_3}{\alpha_1}x_3 - \frac{\alpha_n}{\alpha_1}x_n \tag{5} \labe{eq:five}$$ 
+$$ x_1 = -\frac{\alpha_2}{\alpha_1}x_2 - \frac{\alpha_3}{\alpha_1}x_3 - \frac{\alpha_n}{\alpha_1}x_n \tag{5} \label{eq:five}$$ 
 
 
 ### Linear Transformation
