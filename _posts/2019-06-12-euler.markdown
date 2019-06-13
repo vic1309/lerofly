@@ -88,9 +88,11 @@ Now, to find the numerical approximation for one step ahead ($$y_{n+1} = y_{2}$$
 
 $$ \begin{equation} f_{1} = f(t_{n}, y_{n}) = f(0.1, 1.35) = 3 + e^{-0.1} - (0.5)(1.35) \approx 3.229837 \tag{9} \label{eq:nne}\end{equation}$$
 
-Finally, using \ref{eq:egt}{$$y_{1}$$} and \ref{eq:nne}{$$f_{1}$$} [$$f_{1}$$](\ref{eq:nne}) we find $$y_{2}$$:
+Finally, using [$$y_{1}$$](\ref{eq:egt) and [$$f_{1}$$](\ref{eq:nne}) we find $$y_{2}$$:
 
-$$ \begin{equation} y_{2} = y_{1} + f_{1} \end{equation}$$
+$$ \begin{equation} y_{2} = y_{1} + f_{1}h \approx 1.35 + (3.229837)(0.1) \approx 1.672984 \end{equation}$$
+
+
 
 ----
 
