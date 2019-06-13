@@ -31,14 +31,14 @@ inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layout: 'archive'
+#  permalinks:
+#    category: '/category/:name/'
+#    tag: '/tag/:name/'
 
 # Disqus comments
 # disqus_shortname: bencentra
@@ -47,18 +47,18 @@ jekyll-archives:
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+#descriptions:
+#  - cat: jekyll
+#    desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+#  - cat: dummy
+#    desc: "Just some placeholder posts, lorem ipsum and the rest."
   
-  - cat: misc
-    desc: "Miscellaneous stuff"
+#  - cat: misc
+#    desc: "Miscellaneous stuff"
     
-  - cat: ode
-    desc: "Ordinary Differential Equations"
+#  - cat: ode
+#    desc: "Ordinary Differential Equations"
 # Social icons and sharing options
 #
 # Social settings are used in two places:
