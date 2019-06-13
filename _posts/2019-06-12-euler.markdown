@@ -104,7 +104,7 @@ import numpy as np
 Then, we must define our initial condition and model parameters:
 
 ```python
-f0 = 1 # snitial condition
+f0 = 1 # initial condition
 dt  = 0.1 # step size (0.1, 0.05, 0.025, 0.01) 
 tn = 5 # meshgrid size
 N_t =  int(tn/dt) # N_t = tn/dt -- Number of meshgrid points
@@ -130,12 +130,19 @@ Finally, we are able to numerically solve our first ODE using Euler's Method!
 ```python
 for n in range(N_t):
     f[n] = 3 + np.exp(-t[n]) - (1/2)*y[n]
-    #print(f[n])
     y[n+1] = y[n] + dt*f[n]
 ```
 How does this work? 
 
-- *n* is our step. It will run from 0 up to 49 (50 steps) 
+- *n* is our step. It will run from 0 up to 49 (50 steps) and for each step it will access the value of the corresponding index;
+- *f[n]* is our function. It must be calculated in order to find the value of the numerical solution one step ahead (*y[n+1]*);
+
+Now that you have the numerical solution it's time to code the analytical solution (Eq. \ref{svn}):
+
+```python
+ya = 6 - 2*np.exp(-t) - 3*np.exp(-t/2)
+```
+Much easier, right?
 
 ## Eigenvalues and Eigenvectors
 
