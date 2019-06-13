@@ -64,11 +64,11 @@ For this first chapter I recommend the following reading/watching list:
 
 ### Examples
 
->> <i><b> Ex. 1: </b></i> Consider the following initial value problem:
+>> <i><b> Ex. 1: </b> Consider the following initial value problem:</i>
 
->> $$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, &ensp;&ensp; y(0) = 1 \tag{1} \label{eq:six} \end{equation}$$
+>> $$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, &ensp;&ensp; y(0) = 1 \tag{6} \label{eq:six} \end{equation}$$
 
->> Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values. 
+>> <i>Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values.</i> 
 
 
 ----
