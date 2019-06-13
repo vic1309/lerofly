@@ -62,14 +62,27 @@ For this first chapter I recommend the following reading/watching list:
 
 ### Theoretical Background
 
+$$\begin{equation} y_{n+1} = y_{n} + f_{n}h \tag{5} \label{eq:fv} \end{equation}$$
+
 ### Examples
 
 <i><b> Ex. 1: </b> Consider the following initial value problem:</i>
 
 $$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, \qquad y(0) = 1 \tag{6} \label{eq:six} \end{equation}$$
 
-<i>Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values.</i> 
+<i>Use the Euler Method with step sizes (h) 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with the analytical solution respective values.</i> 
 
+In order to find de exact solution $$\phi(t)$$ we must apply the integrating factor method. We have learned how to use it and once that this is not the goal of this section I will leave this work for the reader. After applying it, you will find that the exact solution is given by:
+
+$$\begin{equation} y = \phi(t) = 6 - 2e^{t} - 3e^{\frac{t}{2}} \tag{7} \label{eq:svn} \end{equation}$$  
+
+To apply Euler's Method formula (see Eq. 5\ref{eq:fv) we must define $$y_{n}$$, $$f_{n}$$ and the step size *h* to find the next value $$y_{n+1}$$ of our function. For this specific problem, $$f(t,y) = 3 + e^{-t} - \frac{y}{2}$$ and for the initial point, *i.e.* n = 0, we have that <b>$$t_{0}$$ = 0</b> and <b>$$y_{0}$$ = 1<\b>. Hence:
+
+$$ \begin{equation} f_{0} = 3 + e^{-t_{0}} - \frac{y_{0}}{2} = 3 + e^{0} - 0.5 = 3.5 \end{equation}$$ 
+
+Using Eq. 5\ref{eq:fv} and considering *h* = 0.1:
+
+$$\begin{eqution} y_{1} = y_{0} + f_{0}h \implies y_{1} = 1 + (3.5)(0.1) = 1.35 \end{equation}$$
 
 ----
 
