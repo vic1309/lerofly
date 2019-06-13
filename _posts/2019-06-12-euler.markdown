@@ -5,7 +5,7 @@ date:   2019-06-12 22:15:00
 author: Victor de Aguiar
 categories: ODE
 text-align: justify
-tags:	ode numerica euler
+tags:	ode numerical euler
 mathjax: true
 cover:  "/assets/capa_ode.jpg"
 ---
@@ -64,11 +64,10 @@ For this first chapter I recommend the following reading/watching list:
 
 ### Examples
 
-> <b>Ex. 1:</b> Consider the initial value problem
 
-> $$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, y(0) = 1 \tag{1} \label{eq:one} \end{equation}$$
+$$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, y(0) = 1 \tag{1} \label{eq:one} \end{equation}$$
 
-> Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values. 
+Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values. 
 
 
 ----
