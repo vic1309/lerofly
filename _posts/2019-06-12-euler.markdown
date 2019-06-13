@@ -149,8 +149,7 @@ Let's conclude this example!
   </tr>
 </table>
 
-<a href="https://pbs.twimg.com/media/BvzWUGwIQAAHZXU.jpg" data-lightbox="euler1-ex1" data-title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
-    
+<a href="https://pbs.twimg.com/media/BvzWUGwIQAAHZXU.jpg" data-lightbox="falcon9-large" data-title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
   <img src="https://pbs.twimg.com/media/BvzWUGwIQAAHZXU.jpg" title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
 </a>
 
