@@ -66,7 +66,7 @@ For this first chapter I recommend the following reading/watching list:
 
 >> **Ex. 1 :** Consider the initial value problem
 
->> $$\frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, &ensp; y(0) = 1 \tag{1} \label{eq:1}$$
+>> $$\begin{equation} \frac{dy}{dt} = 3 + e^{-t} - \frac{1}{2}y, &ensp; y(0) = 1 \tag{1} \label{eq:1}\end{equation}$$
 
 >> Use the Euler Method with step size 0.1, 0.05, 0.025 and 0.01 to approximate a numerical solution between $$ 0 \leq t \leq 5 $$. Compare results with analytical solution correspondent values. 
 
