@@ -76,13 +76,13 @@ In order to find de exact solution $$\phi(t)$$ we must apply the integrating fac
 
 $$\begin{equation} y = \phi(t) = 6 - 2e^{t} - 3e^{\frac{t}{2}} \tag{7} \label{eq:svn} \end{equation}$$  
 
-To apply Euler's Method formula (see Eq. 5\ref{eq:fv) we must define $$y_{n}$$, $$f_{n}$$ and the step size *h* to find the next value $$y_{n+1}$$ of our function. For this specific problem, $$f(t,y) = 3 + e^{-t} - \frac{y}{2}$$ and for the initial point, *i.e.* n = 0, we have that <b>$$t_{0}$$ = 0</b> and $$\mathbf{y_{0} = 1}$$. Hence:
+To apply Euler's Method formula (see Eq. \ref{eq:fv} we must define $$y_{n}$$, $$f_{n}$$ and the step size *h* to find the next value $$y_{n+1}$$ of our function. For this specific problem, $$f(t,y) = 3 + e^{-t} - \frac{y}{2}$$ and for the initial point, *i.e.* n = 0, we have that $$\mathbf{t_{0} = 0}$$ and $$\mathbf{y_{0} = 1}$$. Hence:
 
 $$ \begin{equation} f_{0} = 3 + e^{-t_{0}} - \frac{y_{0}}{2} = 3 + e^{0} - 0.5 = 3.5 \end{equation}$$ 
 
-Using Eq. 5\ref{eq:fv} and considering *h* = 0.1:
+Using Eq. \ref{eq:fv} and considering *h* = 0.1:
 
-$$\begin{eqution} y_{1} = y_{0} + f_{0}h \rightarrow y_{1} = 1 + (3.5)(0.1) = 1.35 \end{equation}$$
+$$\begin{equation} y_{1} = y_{0} + f_{0}h \rightarrow y_{1} = 1 + (3.5)(0.1) = 1.35 \end{equation}$$
 
 ----
 
