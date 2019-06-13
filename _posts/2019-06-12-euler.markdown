@@ -92,16 +92,50 @@ Finally, using E1. \ref{eq:egt} and Eq. \ref{eq:nne} we find $$y_{2}$$:
 
 $$ \begin{equation} y_{2} = y_{1} + f_{1}h \approx 1.35 + (3.229837)(0.1) \approx 1.672984 \end{equation}$$
 
-We should keep doing it recursively untill the final time *t = 5* but, as you may imagine, it can take a while and turn a really bored task. To work around this problem, let's develop a code using Python!
+We should keep doing this recursively untill the final time *t = 5* but, as you may imagine, it can take a while and turn a really bored task. To work around this problem, let's develop a code using Python!
 
 **Python programming**
 
-First of all, we must import the [Numpy](https://www.numpy.org/) package that will be the core for the recursively calculation:
+First of all, we have to import the [Numpy](https://www.numpy.org/) package which will be the core for the recursively calculation:
 
-```python
- 
+```python 
 import numpy as np
 ```
+Then, we must define our initial condition and model parameters:
+
+```python
+f0 = 1 # snitial condition
+dt  = 0.1 # step size (0.1, 0.05, 0.025, 0.01) 
+tn = 5 # meshgrid size
+N_t =  int(tn/dt) # N_t = tn/dt -- Number of meshgrid points
+```
+Now, it's time to build our 1-D meshgrid, that is, the computational fabric where all calculation is going to be done. For our purposes, the meshgrid is evenly spaced (aka *regular*). To do so, we must use the so-called [Numpy linspace function](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html) that will equally split our time domain grid ($$0 \leq t \leq 5$$):   
+
+```python
+from numpy import linspace, zeros, exp
+t = linspace(0, (N_t)*dt, N_t+1) # create evenly spaced time grid
+print(t)
+```
+The function *zeros* imported from Numpy is used to create the initial grids for *y* and *f* (vectors, in this specific case) where all values are initially zero -- except the first *y* element due to the defined initial condition (y(0) = 1), remember? -- and then they are subsequently modified (the recursively work that we did between Eq. \ref{eq:svn} and Eq. \ref{eq:nne}). We need to do that because the computer requires a place previously defined which will receive results as it advances in time. So:
+
+```python       
+y = zeros(N_t+1)
+f = zeros(N_t+1)
+y[0] = f0 # apply the initial condition
+print(y)
+```
+
+Finally, we are able to numerically solve our first ODE using Euler's Method! 
+
+```python
+for n in range(N_t):
+    f[n] = 3 + np.exp(-t[n]) - (1/2)*y[n]
+    #print(f[n])
+    y[n+1] = y[n] + dt*f[n]
+```
+How does this work? 
+
+- *n* is our step. It will run from 0 up to 49 (50 steps) 
 
 ## Eigenvalues and Eigenvectors
 
