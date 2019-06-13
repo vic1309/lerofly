@@ -149,11 +149,13 @@ Let's conclude this example!
   </tr>
 </table>
 
-<a href="https://github.com/vic1309/lerofly/blob/gh-pages/assets/euler_ex1.png" data-lightbox="euler1-large" data-title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
+<a href="https://github.com/vic1309/lerofly/blob/gh-pages/assets/euler_ex1.png" data-lightbox="euler1-ex1" data-title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
+    
   <img src="https://github.com/vic1309/lerofly/blob/gh-pages/assets/euler_ex1.png" title="Comparison between numerical solutions using ditinct step sizes and the analytical solution.">
+
 </a>
 
-/assets/eu.png"
+
 ## Eigenvalues and Eigenvectors
 
 
