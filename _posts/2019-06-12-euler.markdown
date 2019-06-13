@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Numerical Methods - Euler Method"
+title:  "Numerical Methods - Euler's Method"
 date:   2019-06-12 22:15:00
 author: Victor de Aguiar
-categories: ODE
+categories: NMtd
 text-align: justify
 tags:	ode numerical euler
 mathjax: true
@@ -118,7 +118,8 @@ How does this work?
 Now that you have the numerical solution it's time to code the analytical solution (Eq. \ref{svn}):
 
 ```python
-ya = 6 - 2*np.exp(-t) - 3*np.exp(-t/2)
+ta = np.arange(0, t, 1)
+ya = 6 - 2*np.exp(-ta) - 3*np.exp(-ta/2)
 ```
 Much easier, right?
 
