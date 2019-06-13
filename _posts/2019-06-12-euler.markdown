@@ -144,6 +144,32 @@ ya = 6 - 2*np.exp(-t) - 3*np.exp(-t/2)
 ```
 Much easier, right?
 
+Let's conclude this example! 
+
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <th> t </th><th> Exact </th><th> h = 0.1 </th><th> h = 0.05 </th><th> h = 0.025 </th><th> h = 0.01 </th>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr class="even">
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+</table>
+
 ## Eigenvalues and Eigenvectors
 
 
