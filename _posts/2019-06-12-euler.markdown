@@ -151,22 +151,22 @@ Let's conclude this example!
     <th> t </th><th> Exact </th><th> h = 0.1 </th><th> h = 0.05 </th><th> h = 0.025 </th><th> h = 0.01 </th>
   </tr>
   <tr>
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
   </tr>
   <tr class="even">
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>1</td><td>3.4446</td><td>3.5174</td><td>3.4804</td><td>3.4624</td><td>3.4517</td>
   </tr>
   <tr>
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>2</td><td>4.6256</td><td>4.7016</td><td>4.6632</td><td>4.6443</td><td>4.6331</td>
   </tr>
   <tr>
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>3</td><td>5.2310</td><td>5.2918</td><td>5.2611</td><td>5.2460</td><td>5.2370</td>
   </tr>
   <tr>
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>4</td><td>5.5573</td><td>5.6014</td><td>5.5793</td><td>5.5683</td><td>5.5617</td>
   </tr>
   <tr>
-    <td>Division 1</td><td>Division 2</td><td>Division 3</td><td>Division 1</td><td>Division 2</td><td>Division 3</td>
+    <td>5</td><td>5.7402</td><td>5.7707</td><td>5.7555</td><td>5.7479</td><td>5.7433</td>
   </tr>
 </table>
 
