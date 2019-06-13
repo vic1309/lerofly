@@ -11,39 +11,17 @@ cover:  "/assets/capa_ode.jpg"
 ---
 **Hello, world! Welcome!**
 
-We have finally reached the last topic on our journey! Before going deeper and attack it, let's build an intuitive understanding about the problem.
 
-> **- Why should we care about systems of linear ODEs?**
+
+> **- Why should we care about numerical methods?**
 
 <p align="justify">
-  When we consider a linear system of something it means that things are <b>coupled, linked</b>. In other words, if you have two equations with two unknown functions (say $x_1$ and $x_2$) the knowledge of $x_2$ is required to find $x_1$ and the contrary is also true. However, differently from secondary school where we learned how to solve a system of <i>algebraic</i> equations, now we are going to see how to solve a system composed by <i>differential</i> equations. Let's take a look on some examples?
+lorem ipsum
 </p>
 
-<p align="justify"> <i><b>Ex. 1:</b></i> <i>Suppose that you have a system which contains two springs with constants $k_1$ and $k_2$ connected by two blocks with masses $m_1$ and $m_2$ moving on a surface that creates friction ($b_1$ and $b_2$). Consider that the tip of the first spring is fixed and when no external forces act on them their length are $L_1$ and $L_2$. Finally, consider that the position of the blocks are denoted by $x_1$ and $x_2$, respectively (Figure 1).</i> </p>
+<p align="justify"> <i><b>Ex. 1:</b></i> <i>Provide example</i> </p>
 
-> *Taking into account those considerations and apllying Newton's Second Law we find that:*
-
-> $$\begin{equation} m_1 \frac{d^2 x_1}{dt^2} + b_1 \frac{d x_1}{dt} + k_1(x_1 - L_1) - k_2(x_2 - x_1 - L_2) = 0 \tag{1} \label{eq:one} \end{equation}$$
-
-> $$\begin{equation} m_2 \frac{d^2 x_2}{dt^2} + b_2 \frac{d x_2}{dt} + k_2(x_2 - x_1 - L_2) = 0 \tag{2} \label{eq:two} \end{equation}$$
-
-> Defining parameter values:
-
-* Block masses: &ensp; $m_1 = 1.0$, &ensp; $m_2 = 1.5$ 
-* Spring constants: &ensp; $k_1 = 8.0$, &ensp; $k_2 = 40.0$ 
-* Lengths: &ensp; $L_1 = 0.5$, &ensp; $L_2 = 1.0$ 
-* Friction coefficients: &ensp; $b_1 = 0.8$, &ensp; $b_2 = 0.5$
-
-> and initial conditions:
-
-* Initial position: &ensp; $x_1 = 0.5$, &ensp; $x_2 = 2.25$
-* Initial velocity: &ensp; $\frac{d x_1}{dt} = y_1 = 0$, &ensp; $\frac{d x_2}{dt} = y_2 = 0$ 
-
-Thus, we are able to transform two second order equations into a system of four first order equations.
-
-As you probably have already noticed, we are going to use Linear Algebra in order to solve such problems. For that reason, it's worth to spend a time learning/recapitulating specific points about it. On this first part, I am going to present general ideas about *linear transformation*, *linear independence* and *eigenvalues and eigenvectors*. This knowledge is going to be extremely useful when solving linear systems of ODEs later.
-
-For this first chapter I recommend the following reading/watching list:
+I recommend the following reading/watching list for this chapter :
 
 - [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - **3BLue1Brown**
 
