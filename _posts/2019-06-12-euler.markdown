@@ -153,8 +153,14 @@ Let's conclude this example!
   <img src="https://raw.githubusercontent.com/vic1309/lerofly/gh-pages/assets/euler_ex1.png" title="Comparison between numerical solutions using different step sizes and the analytical solution.">
 </a>
 
+Euler's Method worked well on approximating the function to the exact solution! With this example we are able to take some information such as that given a fixed value of *t* (say t = 2) the error decreases as the step size *h* decreases. For instance, if you compare results between $$h = 0.1$$ and $$h = 0.01$$ for *t* = 2, you will see that the error of the first is 10x bigger than the latter. Also, another info is that given a fixed step size (say h = 0.05) it becomes more accurate as time evolves. 
 
-## Eigenvalues and Eigenvectors
+  
+
+
+## Errors
+
+Tal about convexity (https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/unit-i-first-order-differential-equations/numerical-methods/MIT18_03SCF11_s3_4text.pdf)
 
 
 ----
