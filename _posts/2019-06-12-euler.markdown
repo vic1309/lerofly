@@ -115,7 +115,7 @@ How does this work?
 - *n* is our step. It will run from 0 up to 49 (50 steps) and for each step it will access the value of the corresponding index;
 - *f[n]* is our function. It must be calculated in order to find the value of the numerical solution one step ahead (*y[n+1]*);
 
-Now that you have the numerical solution it's time to code the analytical solution (Eq. \ref{svn}):
+Now that we have the numerical solution it's time to code the analytical solution (Eq. \ref{eq:svn}):
 
 ```python
 ta = np.arange(0, t, 1)
@@ -157,10 +157,17 @@ Euler's Method worked well on approximating the function to the exact solution! 
 
 Although we can say that those two observations are general rules of Euler's Method one can ask itself: *"Does it work ever?"* or even *"How do I know if my numerical solution is accurate once that I don't have the analytical solution?"*.  
 
+
+
 ## Errors
 
-Tal about convexity (https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/unit-i-first-order-differential-equations/numerical-methods/MIT18_03SCF11_s3_4text.pdf)
+Talk about convexity (https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/unit-i-first-order-differential-equations/numerical-methods/MIT18_03SCF11_s3_4text.pdf)
 
+http://web.mit.edu/16.90/BackUp/www/pdfs/Chapter2.pdf
+
+http://acmbulletin.fiit.stuba.sk/vol3num3/sehnalova.pdf
+
+http://www.maths.lth.se/na/courses/FMN050/media/material/part14.pdf
 
 ----
 
