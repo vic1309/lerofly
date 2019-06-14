@@ -153,10 +153,9 @@ Let's conclude this example!
   <img src="https://raw.githubusercontent.com/vic1309/lerofly/gh-pages/assets/euler_ex1.png" title="Comparison between numerical solutions using different step sizes and the analytical solution.">
 </a>
 
-Euler's Method worked well on approximating the function to the exact solution! With this example we are able to take some information such as that given a fixed value of *t* (say t = 2) the error decreases as the step size *h* decreases. For instance, if you compare results between $$h = 0.1$$ and $$h = 0.01$$ for *t* = 2, you will see that the error of the first is 10x bigger than the latter. Also, another info is that given a fixed step size (say h = 0.05) it becomes more accurate as time evolves. 
+Euler's Method worked well on approximating the function to the exact solution! Using just this very simple example we are able to take some useful information such as that given a fixed value of *t* (say t = 2) the error decreases as the step size *h* decreases. For instance, if you compare results between $$h = 0.1$$ and $$h = 0.01$$ for *t* = 2, you will see that the error of the first is 10x bigger than the latter. Moreover, another point is that given a fixed step size (say h = 0.05) the numerical approximation becomes more accurate as time evolves. 
 
-  
-
+Although we can say that those two observations are general rules of Euler's Method one can ask itself: *"Does it work ever?"* or even *"How do I know if my numerical solution is accurate once that I don't have the analytical solution?"*.  
 
 ## Errors
 
